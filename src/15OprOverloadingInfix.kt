@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
 
     val totalPopulation = ahm + mumbai
 
+    println(totalPopulation)
+
     //normal call
     ahm.isLargerThan(mumbai)
 

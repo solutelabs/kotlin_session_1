@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
         print(sample + 7)
     }
 
-    if(sample !is Int){
+    if (sample !is Int) {
 
     }
 

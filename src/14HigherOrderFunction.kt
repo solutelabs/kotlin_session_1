@@ -22,20 +22,6 @@ fun higher1(arg1: Int, func: (Int, String) -> Unit) {
     //...
 }
 
-fun higher2(onSuccess: () -> Unit, onFailure: () -> Unit) {
-
-    //..
-
-    onSuccess()
-
-    //...
-
-    onFailure()
-
-    //...
-}
-
-
 fun main(args: Array<String>) {
 
     //Type 1
@@ -48,11 +34,4 @@ fun main(args: Array<String>) {
         i, s ->
         println("$i and $s")
     }
-
-    //Type 3
-    higher2(onSuccess = {
-        println("It's success")
-    }, onFailure = {
-        println("It's failure")
-    })
 }

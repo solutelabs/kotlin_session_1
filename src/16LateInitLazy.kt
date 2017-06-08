@@ -5,6 +5,7 @@ class DemoClass {
 
     lateinit var str: String
 
+
     fun memberFun() {
         str = "Here I want to initialize"
     }

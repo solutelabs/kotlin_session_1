@@ -4,8 +4,10 @@
 class KotlinClass1 {
 
 }
+/*
 
-/*class KotlinClass2 : KotlinClass1() {
+class KotlinClass2 : KotlinClass1() {
 
 
-}*/
+}
+*/

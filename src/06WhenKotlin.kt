@@ -11,14 +11,14 @@ fun main(args: Array<String>) {
     getValue(6.6F)
 
 
-    /* var x: Int = 8
+     var x: Int = 8
      var y: Int = 9
 
      when {
          x > y -> println("$x > $y")
          x < y -> println("$x < $y")
          x == y -> println("$x = $y")
-     }*/
+     }
 }
 
 

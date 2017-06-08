@@ -31,5 +31,7 @@ data class Person(var id: Int, private var _name: String) {
 fun main(args: Array<String>) {
     val mObj = User(12, "Name")
 
-
+    var person = Person(12, "name")
+    person.name = "New value"
+    println(person.name)
 }

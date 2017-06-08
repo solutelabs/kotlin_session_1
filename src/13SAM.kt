@@ -10,8 +10,6 @@ fun main(args: Array<String>) {
         override fun onAction() {
 
         }
-
-
     })
 }
 
