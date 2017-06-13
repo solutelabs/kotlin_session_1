@@ -6,11 +6,13 @@ fun main(args: Array<String>) {
 
     var nullableValue: String? = null
 
-    val let = nullableValue?.let { println("It's not null") }
-
     nullableValue = " I have value now"
 
-    nullableValue?.let { println(it) }
+    nullableValue?.let { println("It's not null") }
 
+    val m : Int = 8
+
+
+    nullableValue?.let { println(it) }
 
 }

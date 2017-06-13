@@ -3,7 +3,7 @@
  */
 
 
-fun higher(func: (Int) -> Unit) {
+fun higher(func : (Int) -> Unit) {
 
     //...
 
@@ -30,6 +30,9 @@ fun main(args: Array<String>) {
 
     //Type 2
     higher1(4, { i, s -> println("$i and $s") })
+
+
+
     higher1(4) {
         i, s ->
         println("$i and $s")

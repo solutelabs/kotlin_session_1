@@ -9,6 +9,8 @@ fun main(args: Array<String>) {
         print(sample.length) // here 'sample' automatically casts to String.
     }
 
+
+
     if (sample is Int) {
         print(sample + 7)
     }

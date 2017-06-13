@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     val ahm = City("Ahmedabad", 1000)
     val mumbai = City("Mumbai", 2000)
 
-    val totalPopulation = ahm + mumbai
+    val totalPopulation = ahm - mumbai
 
     println(totalPopulation)
 
@@ -15,14 +15,14 @@ fun main(args: Array<String>) {
     ahm.isLargerThan(mumbai)
 
     // infix call
-    ahm isLargerThan mumbai
+   ahm isLargerThan mumbai
 
 
 }
 
 data class City(val name: String, val population: Int) {
 
-    operator fun plus(otherName: City): Int {
+    operator fun minus(otherName: City): Int {
         return this.population + otherName.population
     }
 

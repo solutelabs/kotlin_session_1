@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
         print(x)
     }
 
+
     println()
     //for reverse
     for (x in 5 downTo 1) {
@@ -19,9 +20,11 @@ fun main(args: Array<String>) {
         print(x) //excludes 10
     }
     println()
+
     for (x in 1..10 step 2) {
         print(x)
     }
+
 
     /*
     * Ranges are handled in a special way by the compiler,

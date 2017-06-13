@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
     println("The length of '$value' is ${value.length}")
 
 
-    print(""" Multiline dskmsdkm
-             code  """)
+    print(""" This is
+    Multiline
+    code  """)
 }

@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
 
     var iCanNotBeNull: String = "Not null value"
 
-//    iCanNotBeNull = null
+//  iCanNotBeNull = null
 
     var canBeNull: String? = "Can be null or non null"
 
@@ -17,9 +17,9 @@ fun main(args: Array<String>) {
     println(canBeNull?.length)
 
     //Elvis operator
-//    println(canBeNull?.length ?: 7)
+    println(canBeNull?.length ?: 7)
 
     //Force operators
-//    println(canBeNull!!.length)
+    println(canBeNull!!.length)
 
 }

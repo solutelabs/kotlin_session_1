@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
 }
 
 
-fun getValue(value: Any) = when (value) {
+fun getValue(value: Any)  = when (value) {
     is String -> println("It is String")
     4, 5 -> println("It is 4 or 5")
     in 1..10 -> println("I'm between 1 to 10")
@@ -30,3 +30,4 @@ fun getValue(value: Any) = when (value) {
     else -> println("I don't know, what is this")
 }
 
+fun get() : Boolean = true

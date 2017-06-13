@@ -6,6 +6,7 @@ public interface Listener {
     void onAction();
 
 }
+
 class Sample{
     public static void main(String[] args) {
         get(new Listener() {
